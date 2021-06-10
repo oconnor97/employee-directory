@@ -42,6 +42,7 @@
 
 
 ![Screenshot of deployed application](assets/images/employee-directory.png)
+[Github Pages](https://oconnor97.github.io/employee-directory/)
 
   
   
