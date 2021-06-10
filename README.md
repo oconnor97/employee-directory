@@ -1,12 +1,14 @@
 # Employee Directory
+
 ## Table of Contents
-    1. [License](#License)
-    2. [Description](#Description)
-    3. [Technologies](#Technologies)
-    4. [Installation](#Installation)
-    5. [Deployment](#Deployment)
-    5. [Contributions](#Contributions)
-    6. [Support](#Support)
+
+* [1. License](#License)
+* [2. Description](#description)
+* [3. Technologies](#Technologies)
+* [4. Installation](#Installation)
+* [5. Deployment](#Deployment)
+* [6. Contributions](#Contributions)
+* [7. Support](#Support)
   
   
 ## License 
@@ -40,7 +42,7 @@
 
 
 ![Screenshot of deployed application](assets/images/employee-directory.png)
-[]()
+
   
   
 ## Contributions 
