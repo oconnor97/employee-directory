@@ -11,7 +11,18 @@ const Table = () => {
 
     useEffect(() => {
         loadEmployees();
+
     }, []);
+
+    const handleSearch = (input) => {
+        setFilteredState(employeeState.filter((employee) => {
+            return employee.name.first.toLowerCase().includes(input.toLowerCase()) ||
+                employee.name.last.toLowerCase().includes(input.toLowerCase()) ||
+                employee.phone.toLowerCase().includes(input.toLowerCase()) ||
+                employee.email.toLowerCase().includes(input.toLowerCase()) ||
+                employee.dob.date.toLowerCase().includes(input.toLowerCase())
+        }))
+    }
 
 
     let allEmployees;
@@ -30,7 +41,7 @@ const Table = () => {
 
     return (
         <div>
-            <Search />
+            <Search handleSearch={handleSearch} />
             <table className="table table-hover table-dark">
                 <thead>
                     <tr>
