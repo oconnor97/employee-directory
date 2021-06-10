@@ -1,6 +1,13 @@
+import React from 'react';
+import EmployeeData from '../EmployeeData/index';
+import Search from '../Search/index';
+import API from '../../utils/API';
+
+
 const Table = () => {
     return (
         <div>
+            <Search />
             <table className="table table-hover table-dark">
                 <thead>
                     <tr>
@@ -11,12 +18,7 @@ const Table = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
+                    <EmployeeData />
                 </tbody>
             </table>
         </div>

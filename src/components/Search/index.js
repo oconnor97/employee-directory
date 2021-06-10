@@ -1,12 +1,13 @@
 
 const search = () => {
     return (
-        <div className="input-group">
-            <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search"
-                aria-describedby="search-addon" />
-            <button type="button" className="btn btn-outline-primary">search</button>
+        <div style={{ width: "80%", margin: "10px 10vw 50px 45vw" }} className="input-group">
+            <div className="form-outline">
+                <input type="search" id="form1" placeholder="Search" className="form-control" />
+            </div>
         </div>
-    )
+    );
 }
+
 
 export default search
